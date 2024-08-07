@@ -220,7 +220,8 @@
   display: flex;
   justify-content: center;
   padding-top: 100px;
-  margin-bottom: 80px;
+  /*margin-bottom: 80px;*/
+  margin: 0 auto 80px;
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
