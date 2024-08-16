@@ -1,0 +1,131 @@
+.header {
+  background-color: #ffffff;
+  position: relative;
+  background-image: url(../images/background_header.svg);
+  display: flex;
+  flex-direction: column;
+  min-height: 720px;
+  max-height: 800px;
+  height: 100vh;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__logo {
+  margin: 30px 30px;
+  max-width: 105px;
+  max-height: 39px;
+}
+
+.nav__links {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  max-width: 709px;
+  padding-left: 0;
+  margin: 30px 80px;
+  column-gap: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.nav__link {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000000;
+}
+
+.header__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header__title {
+  max-width: 709px;
+  font-size: 58px;
+  line-height: 72px;
+  font-weight: 500;
+  margin: 183px 0 0 80px;
+  font-family: "Inter";
+  font-style: normal;
+  letter-spacing: -1px;
+}
+
+.span-accent {
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 72px;
+  color: #2f80ed;
+}
+
+.span-accentt {
+  display: block;
+}
+
+.header__description {
+  max-width: 683px;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 28px 80px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+}
+
+.header__image {
+  position: absolute;
+  right: 0;
+  top: 124px;
+
+  max-width: 568px;
+  max-height: 648px;
+  padding-right: 5px;
+}
+
+.header__footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 40px;
+}
+
+.header__schedules {
+  /*margin: 40px 80px;*/
+  margin-top: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+  display: flex;
+  flex-direction: column;
+}
+
+.header__paragraph {
+  margin: 0;
+}
+
+.header__footer-address {
+  /*margin-top: auto;*/
+  /*margin: 40px 80px;*/
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+  align-self: flex-end;
+  z-index: 1;
+}
