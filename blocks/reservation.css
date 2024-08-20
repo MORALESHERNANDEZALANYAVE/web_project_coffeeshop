@@ -1,4 +1,4 @@
-.reservation {
+.form__section-reservation {
   margin: 0;
   background-image: url(/images/background_reservation.svg);
   background-color: #d9e7ff;
@@ -6,7 +6,7 @@
   position: relative;
 }
 
-.reservation__title {
+.form__title {
   display: flex;
   justify-content: center;
   padding-top: 100px;
@@ -24,7 +24,7 @@
   margin: 0 auto 80px;
 }
 
-.reservation__form {
+.form__reservation {
   display: flex;
   flex-direction: column;
   max-width: 385px;
