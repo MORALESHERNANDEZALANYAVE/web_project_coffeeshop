@@ -1,9 +1,8 @@
 .form {
   max-width: 400px;
   margin: 0 auto 80px;
+  margin-bottom: auto;
 }
-
-
 
 .form__label {
   display: block;
