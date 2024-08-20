@@ -3,14 +3,7 @@
   margin: 0 auto 80px;
 }
 
-.form__reservation {
-  display: flex;
-  flex-direction: column;
-  max-width: 385px;
-  margin: auto;
-  padding: 0;
-  border: none;
-}
+
 
 .form__label {
   display: block;

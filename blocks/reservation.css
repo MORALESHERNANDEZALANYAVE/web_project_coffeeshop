@@ -18,3 +18,12 @@
   font-size: 44px;
   line-height: 52px;
 }
+
+.reservation__form {
+  display: flex;
+  flex-direction: column;
+  max-width: 385px;
+  margin: auto;
+  padding: 0;
+  border: none;
+}
