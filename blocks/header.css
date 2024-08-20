@@ -9,38 +9,6 @@
   height: 100vh;
 }
 
-.nav {
-  display: flex;
-  justify-content: space-between;
-}
-
-.nav__logo {
-  margin: 30px 30px;
-  max-width: 105px;
-  max-height: 39px;
-}
-
-.nav__links {
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  max-width: 709px;
-  padding-left: 0;
-  margin: 30px 80px;
-  column-gap: 20px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-}
-
-.nav__link {
-  text-decoration: none;
-  font-weight: bold;
-  color: #000000;
-}
-
 .header__content {
   display: flex;
   flex-direction: column;
